@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    h1{
+      border: 1px solid black;
+      display: inline-block;
+      width: 40%;
+     
+    }
+span{
+   border: 1px solid black; 
+}
+div{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+    </style>
+    
+</head>
+<body>
+ <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+ </header>
+<div style="background-color: black;" onclick="choose('black')"></div>
+<div style="background-color: red;" onclick="choose('red')"></div>
+<div style="background-color: yellow;" onclick="choose('yellow')"></div>
+<div style="background-color: green;" onclick="choose('green')"></div>
+<h1 id="test" onclick="change()">hello</h1>
+<h1 id="test2" onclick="change()">world</h1>
+<span id="test3" onclick="change()"  >hey</span>
+<br>
+<br>
+<button onclick="change()" ><a href="about.html">click me</a></button> </button>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+  
